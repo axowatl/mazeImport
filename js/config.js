@@ -7,12 +7,12 @@ export const config = Object.freeze({
             parameters: {
                 width: {
                     min: 2,
-                    max: 50,
+                    max: Infinity,
                     initial: 10
                 },
                 height: {
                     min: 2,
-                    max: 50,
+                    max: Infinity,
                     initial: 10
                 }
             },
