@@ -524,7 +524,7 @@ window.onload = () => {
             downloadLink.click();
         }
 
-        const SVG_SIZE = 500,
+        const SVG_SIZE = model.size * 2,
             elSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         elSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
         elSvg.setAttribute('width', SVG_SIZE);
