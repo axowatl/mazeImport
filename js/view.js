@@ -75,7 +75,7 @@ export function buildView(model, stateMachine) {
             elMazeContainer.style.height = `${elMazeContainer.clientWidth}px`;
         }
 
-        elCanvas.width = elMazeContainer.clientWidth * 10;
+        elCanvas.width = elMazeContainer.clientHeight * 10;
         elCanvas.height = elMazeContainer.clientHeight * 10;
     }
     window.onresize = () => {
